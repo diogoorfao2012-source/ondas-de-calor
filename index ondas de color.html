@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Trabalho de Geografia sobre ondas de calor: o que são, causas, consequências e como nos protegermos.">
+<title>Ondas de Calor | Trabalho de Geografia</title>
+<style>
+:root{--bg:#fff8ee;--card:#fff;--txt:#3a2a1a;--accent:#e8590c;--soft:#ffe3c4}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+header{background:linear-gradient(135deg,#ff922b,#e03131);color:#fff;text-align:center;padding:40px 16px}
+header h1{margin:0;font-size:2.2rem}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:12px;background:var(--soft);position:sticky;top:0}
+nav button{border:0;background:#fff;padding:8px 14px;border-radius:20px;cursor:pointer;font-size:1rem}
+nav button.on{background:var(--accent);color:#fff}
+main{max-width:800px;margin:auto;padding:16px}
+section{display:none;background:var(--card);border-radius:14px;padding:20px;margin-top:16px;box-shadow:0 2px 8px #0001}
+section.on{display:block}
+h2{color:var(--accent);margin-top:0}
+svg{max-width:100%;height:auto;display:block;margin:auto}
+.temp{font-size:2rem;font-weight:bold;text-align:center}
+input[type=range]{width:100%}
+.res{padding:12px;border-radius:10px;text-align:center;font-weight:bold;margin-top:10px}
+.ok{background:#d3f9d8}.bad{background:#ffc9c9}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px;border:2px solid var(--soft);background:#fff;border-radius:10px;cursor:pointer;font-size:1rem}
+.opt.right{background:#d3f9d8;border-color:#2f9e44}.opt.wrong{background:#ffc9c9;border-color:#e03131}
+details{background:var(--bg);border-radius:10px;padding:10px;margin:8px 0}
+footer{text-align:center;padding:20px;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<h1>🔥 Ondas de Calor</h1>
+<p>Trabalho de Geografia · Explora, brinca e aprende</p>
+</header>
+<nav id="nav"></nav>
+<main>
+
+<section id="s0" class="on">
+<h2>O que é uma onda de calor?</h2>
+<svg viewBox="0 0 400 180" role="img" aria-label="Sol grande sobre uma paisagem seca">
+<rect width="400" height="180" fill="#ffe8cc"/>
+<circle cx="320" cy="55" r="34" fill="#ff922b"/>
+<g stroke="#ff922b" stroke-width="5" stroke-linecap="round">
+<line x1="320" y1="5" x2="320" y2="15"/><line x1="320" y1="95" x2="320" y2="105"/>
+<line x1="270" y1="55" x2="280" y2="55"/><line x1="360" y1="55" x2="370" y2="55"/>
+<line x1="285" y1="20" x2="292" y2="27"/><line x1="348" y1="83" x2="355" y2="90"/>
+<line x1="355" y1="20" x2="348" y2="27"/><line x1="292" y1="83" x2="285" y2="90"/></g>
+<path d="M0 150 Q100 120 200 145 T400 140 V180 H0Z" fill="#d9a066"/>
+<rect x="60" y="60" width="14" height="80" rx="7" fill="#fff" stroke="#e03131" stroke-width="3"/>
+<circle cx="67" cy="148" r="15" fill="#e03131"/><rect x="63" y="85" width="8" height="55" fill="#e03131"/>
+</svg>
+<p>Uma <b>onda de calor</b> é um período de tempo anormalmente quente. Em Portugal, o IPMA (Instituto Português do Mar e da Atmosfera) considera que há onda de calor quando a temperatura máxima fica <b>pelo menos 5 °C acima do valor normal durante, no mínimo, 6 dias seguidos</b>.</p>
+<p>Não é só "um dia quente": o que a torna perigosa é a <b>duração</b>.</p>
+</section>
+
+<section id="s1">
+<h2>Causas</h2>
+<details open><summary><b>☀️ Anticiclone (alta pressão)</b></summary>O ar desce, aquece e fica "preso". Quase não há nuvens nem vento, por isso o sol aquece muito o solo.</details>
+<details><summary><b>🌍 Ar quente vindo de África</b></summary>Em Portugal, massas de ar quente e seco do Norte de África podem chegar à Península Ibérica.</details>
+<details><summary><b>🏭 Alterações climáticas</b></summary>O aumento dos gases com efeito de estufa aquece o planeta, e as ondas de calor são cada vez mais frequentes e intensas.</details>
+<details><summary><b>🏙️ Ilhas de calor urbanas</b></summary>O betão e o asfalto guardam calor, por isso as cidades ficam mais quentes do que os campos à volta.</details>
+</section>
+
+<section id="s2">
+<h2>Consequências</h2>
+<details open><summary><b>❤️ Saúde</b></summary>Desidratação, golpes de calor e agravamento de doenças, sobretudo em idosos, bebés e doentes crónicos.</details>
+<details><summary><b>🔥 Incêndios florestais</b></summary>Calor, vento e vegetação seca aumentam muito o risco de fogo.</details>
+<details><summary><b>💧 Seca</b></summary>Mais evaporação e menos água nas barragens e rios.</details>
+<details><summary><b>🌾 Agricultura</b></summary>Culturas queimadas, menos produção e animais em sofrimento.</details>
+<details><summary><b>📅 Caso real: 2003</b></summary>Em agosto de 2003, uma forte onda de calor atingiu a Europa, com milhares de mortes e grandes incêndios em Portugal. Foi nesse mês que se registou em Amareleja um dos valores mais altos do país (cerca de 47 °C).</details>
+</section>
+
+<section id="s3">
+<h2>Simulador: é onda de calor?</h2>
+<p>Imagina que a temperatura máxima normal é de <b>30 °C</b>. Mexe nos controlos:</p>
+<label>Temperatura máxima: <b id="tv">33</b> °C</label>
+<input type="range" id="t" min="28" max="45" value="33">
+<label>Dias seguidos: <b id="dv">3</b></label>
+<input type="range" id="d" min="1" max="10" value="3">
+<div class="temp" id="emoji">🌡️</div>
+<div class="res" id="res"></div>
+</section>
+
+<section id="s4">
+<h2>Como nos protegermos</h2>
+<svg viewBox="0 0 400 110" role="img" aria-label="Copo de água, chapéu e sombra">
+<rect width="400" height="110" fill="#e7f5ff" rx="10"/>
+<path d="M60 30 h50 l-6 60 h-38z" fill="#74c0fc" stroke="#1971c2" stroke-width="3"/>
+<text x="85" y="104" text-anchor="middle" font-size="12">Bebe água</text>
+<ellipse cx="200" cy="60" rx="45" ry="10" fill="#f59f00"/><path d="M165 60 Q200 15 235 60Z" fill="#fcc419"/>
+<text x="200" y="104" text-anchor="middle" font-size="12">Chapéu</text>
+<path d="M300 90 V40 M270 40 Q300 5 330 40Z" stroke="#2f9e44" stroke-width="5" fill="#8ce99a"/>
+<text x="300" y="104" text-anchor="middle" font-size="12">Procura sombra</text>
+</svg>
+<ul>
+<li>Bebe água várias vezes ao dia, mesmo sem sede.</li>
+<li>Evita o sol entre as 11h e as 17h.</li>
+<li>Usa roupa leve e clara, chapéu e protetor solar.</li>
+<li>Nunca deixes pessoas ou animais dentro de um carro parado.</li>
+<li>Ajuda familiares idosos e vizinhos.</li>
+</ul>
+</section>
+
+<section id="s5">
+<h2>Quiz</h2>
+<div id="quiz"></div>
+<p id="score"></p>
+</section>
+
+</main>
+<footer>Fontes sugeridas: IPMA (ipma.pt), Direção-Geral da Saúde (dgs.pt), Copernicus (climate.copernicus.eu)<br>Trabalho feito por: <i>(escreve aqui o teu nome)</i></footer>
+
+<script>
+const names=["O que é","Causas","Consequências","Simulador","Proteção","Quiz"];
+const nav=document.getElementById("nav");
+names.forEach((n,i)=>{const b=document.createElement("button");b.textContent=n;if(!i)b.className="on";
+b.onclick=()=>{document.querySelectorAll("section").forEach((s,j)=>s.classList.toggle("on",i==j));
+[...nav.children].forEach((x,j)=>x.classList.toggle("on",i==j));scrollTo(0,0)};nav.appendChild(b)});
+
+const t=document.getElementById("t"),d=document.getElementById("d");
+function sim(){
+ tv.textContent=t.value;dv.textContent=d.value;
+ const hot=t.value>=35,long=d.value>=6,r=document.getElementById("res");
+ if(hot&&long){r.className="res bad";r.textContent="🚨 É onda de calor! (5 °C acima do normal durante 6 ou mais dias)";emoji.textContent="🥵"}
+ else{r.className="res ok";r.textContent=!hot?"Ainda não está 5 °C acima do normal.":"Está muito calor, mas faltam dias seguidos (mínimo 6).";emoji.textContent=hot?"😓":"😎"}
+}
+t.oninput=d.oninput=sim;sim();
+
+const qs=[
+["Quantos dias seguidos, no mínimo, para ser onda de calor (IPMA)?",["3","6","10"],1],
+["Que fenómeno prende o ar quente e dá céu limpo?",["Anticiclone","Ciclone","Tornado"],0],
+["Qual destes é um efeito das ondas de calor?",["Mais risco de incêndios","Mais neve","Rios a transbordar"],0],
+["Porque é que as cidades ficam mais quentes?",["Têm mais vento","O betão e asfalto guardam calor","Têm menos pessoas"],1]
+];
+let pts=0,ans=0;const q=document.getElementById("quiz");
+qs.forEach(([p,o,c])=>{const w=document.createElement("div");w.innerHTML="<p><b>"+p+"</b></p>";
+ o.forEach((x,i)=>{const b=document.createElement("button");b.className="opt";b.textContent=x;
+  b.onclick=()=>{if(w.dataset.done)return;w.dataset.done=1;ans++;
+   if(i==c){b.classList.add("right");pts++}else{b.classList.add("wrong");w.children[c+1].classList.add("right")}
+   if(ans==qs.length)score.textContent="Pontuação: "+pts+"/"+qs.length+(pts==qs.length?" 🏆":" 👏")};
+  w.appendChild(b)});q.appendChild(w)});
+</script>
+</body>
+</html>
